@@ -52,3 +52,7 @@ app.register_blueprint(error_pages)
 #linking users views Blueprint
 from myapp.users.views import users
 app.register_blueprint(users)
+
+#link the blog_posts view Blueprint
+from myapp.blog_posts.views import blog_posts
+app.register_blueprint(blog_posts)
