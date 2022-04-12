@@ -3,8 +3,11 @@ h1 {
 }
 
 body {
-    background-image: url("static/images/backgroundimage.jpeg");
-    /* background-color: red; */
+    background-color: black;
+    background-image: url("/static/images/backgroundimage.jpeg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    margin: 10vh;
 }
 
 .nav {
