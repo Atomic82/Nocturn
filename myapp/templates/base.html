@@ -7,41 +7,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/static/favicon/favicon-32x32.png">
+    <link rel="shortcut icon" href="/static/favicon/favicon.jpg">
     <link rel="stylesheet" href="/static/css/main.css">
     <title>Nocturn</title>
 </head>
 
 <body>
-    <ul class="nav">
-        <li class="nav-link">
-            <a href="{{url_for('core.index')}}">Home</a>
+    <ul class=" nav ">
+        <li class="nav-link ">
+            <a href="{{url_for( 'core.index')}} ">Home</a>
         </li>
-        <li class="nav-link">
-            <a href="{{url_for('core.info')}}">About</a>
+        <li class="nav-link ">
+            <a href="{{url_for( 'core.info')}} ">About</a>
         </li>
 
         {% if current_user.is_authenticated %}
-        <li class="nav-link">
-            <a href="{{url_for('blog_posts.create_post')}}">Create Post</a>
+        <li class="nav-link ">
+            <a href="{{url_for( 'blog_posts.create_post')}} ">Create Post</a>
         </li>
-        <li class="nav-link">
-            <a href="{{url_for('users.logout')}}">Log Out</a>
+        <li class="nav-link ">
+            <a href="{{url_for( 'users.logout')}} ">Log Out</a>
         </li>
-        <li class="nav-link">
-            <a href="{{url_for('users.account')}}">Account</a>
+        <li class="nav-link ">
+            <a href="{{url_for( 'users.account')}} ">Account</a>
         </li>
         {% else %}
-        <li class="nav-link">
-            <a href="{{url_for('users.login')}}">Log In</a>
+        <li class="nav-link ">
+            <a href="{{url_for( 'users.login')}} ">Log In</a>
         </li>
-        <li class="nav-link">
-            <a href="{{url_for('users.register')}}">Register</a>
+        <li class="nav-link ">
+            <a href="{{url_for( 'users.register')}} ">Register</a>
         </li>
         {% endif %}
     </ul>
 
-    <div class="container">
+    <div class="container ">
         {% block content %} {% endblock %}
     </div>
 </body>

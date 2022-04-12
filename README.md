@@ -17,8 +17,8 @@ An app all about night vision observations and stargazing. The night comes alive
 
 # Stret☾h g🌘als🦉
 ----
-- Forum-style similar to Reddit.
-- Styling changes.
+- Forum-style comment system similar to Reddit.
+- The most recent posts/images are pushed to the top of the page.
 
 # Te☾hn🌖logy Used and Implemented🦉
 ----

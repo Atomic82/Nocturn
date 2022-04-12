@@ -1,0 +1,16 @@
+h1 {
+    color: darkcyan;
+}
+
+body {
+    background-image: url("static/images/backgroundimage.jpeg");
+    /* background-color: red; */
+}
+
+.nav {
+    background-color: purple;
+}
+
+div {
+    background-color: red;
+}
