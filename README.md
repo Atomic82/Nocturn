@@ -7,9 +7,9 @@ An app all about night vision observations and stargazing. The night comes alive
 
 # S☾reensh🌓ts🦉
 ----
-![Home Page](/assets/ScreenshotGame.png)
+![Home Page](/)
 
-![ERD](/assets/RedBomb.png)
+![ERD](/static/images/ERD.png)
 
 ![Wireframe](/static/images/NocturnWireframe.png)
 
