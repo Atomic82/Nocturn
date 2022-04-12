@@ -1,11 +1,11 @@
 
-# Nocturn🦉
+# No☾turn🦉
 ----
 [Launch App](https://)
 
 An app all about night vision observations and stargazing. The night comes alive with different sounds and experiences. Write about it here and encourage investing in NODs (Night Observation Devices) as a tool to enjoy all 24 hours of a day.
 
-# Screenshots🦉
+# S☾reenshots🦉
 ----
 ![Home Page](/assets/ScreenshotGame.png)
 
@@ -13,12 +13,12 @@ An app all about night vision observations and stargazing. The night comes alive
 
 ![Wireframe](/assets/Wireframe.png)
 
-# Stretch goals🦉
+# Stret☾h goals🦉
 ----
 - Forum-style similar to Reddit.
 - Styling changes.
 
-# Technology Used and Implemented🦉
+# Te☾hnology Used and Implemented🦉
 ----
 
 <a href="a"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
