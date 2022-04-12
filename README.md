@@ -11,7 +11,7 @@ An app all about night vision observations and stargazing. The night comes alive
 
 ![ERD](/assets/RedBomb.png)
 
-![Wireframe](/assets/Wireframe.png)
+![Wireframe](/static/images/NocturnWireframe.png)
 
 # Stret☾h g🌘als🦉
 ----
