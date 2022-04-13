@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,12 +57,9 @@ title {
 
 /* blog box */
 .container {
-
   position: absolute;
-  width: 812px;
-  height: 370px;
-  left: 314px;
-  top: 150px;
+  width: 50vw;
+  height: 20vh;
   background: rgba(0, 0, 0, 0.9);
   border: 2px solid #ffffff;
   box-sizing: border-box;
