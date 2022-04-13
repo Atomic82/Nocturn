@@ -1,19 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap");
+
 h1 {
-    color: darkcyan;
+  display: flex;
+  color: #00ffd1;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    background-color: black;
-    background-image: url("/static/images/backgroundimage.jpeg");
-    background-repeat: no-repeat;
-    background-size: fill;
-    margin: 10vh;
+  background-color: black;
+  background-image: url("/static/images/backgroundimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  display: flexbox;
+  font-family: "Inter", sans-serif;
+}
+
+title {
+  color: white;
+  height: 10vh;
 }
 
 .nav {
-    background-color: purple;
+  background-color: #000000;
+  position: absolute;
+  width: 100vw;
+  height: 5vh;
+  left: 0px;
+  top: 0px;
+  display: inline-flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-div {
-    background-color: red;
+/* .nav-link {
+  color: white;
+  background-color: rgb(74, 227, 13);
+  display: flex;
+  justify-content: center;
+} */
+
+/* blog box */
+.container {
+
+  position: absolute;
+  width: 812px;
+  height: 370px;
+  left: 314px;
+  top: 150px;
+  background: rgba(0, 0, 0, 0.9);
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+/* ul > li {
+    color: blue;
+} */
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
 }
