@@ -9,7 +9,7 @@ An app all about night vision observations and stargazing. The night comes alive
 ----
 ![Home Page](/)
 
-![Wireframe](/myapp/static/images/NocturnWireframe.png)
+![Wireframe](/myapp/static/images/Wireframe.png)
 
 ![Favicon](/myapp/static/favicon/favicon.png)
 
