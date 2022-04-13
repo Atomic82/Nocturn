@@ -23,7 +23,14 @@ class User(db.Model, UserMixin):
     def __init__(self, email, username, password):
         self.email = email
         self.username = username
-        self.password_hash = generate_password_hash(password)
+        self.password_hash = generate_password_hash(password)     
+
+
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
+    
+    def __repr__(self):
+        return f"Username {self.username}"
 
 class BlogPost(db.Model):
     __tablename__ = 'blog_posts'
@@ -39,12 +46,4 @@ class BlogPost(db.Model):
         self.user_id = user_id
     
     def __repr__(self):
-        return f"Post ID: {self.id} -- Date: {self.date} --- Title: {self.Title}"        
-
-
-    def check_password(self, password):
-        return check_password_hash(self.password_hash, password)
-    
-    def __repr__(self):
-        return f"Username {self.username}"
-
+        return f"Post ID: {self.id} -- Date: {self.date} --- Title: {self.Title}"   
