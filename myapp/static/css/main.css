@@ -64,14 +64,27 @@ body {
   position: absolute;
   width: 100vw;
   height: 5vh;
-  left: 0px;
+  right: 0px;
   top: 0px;
   display: inline-flex;
   justify-content: flex-end;
   color: white;
-  margin: 0 10px 0 0;
+  
   list-style-type: none;
 }
+
+form {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+/* .form-group {
+    display: flex;
+    justify-content: center;
+} */
 
 /* blog box */
 .container {
@@ -96,6 +109,10 @@ body {
     font-family: "Inter", sans-serif;
     padding: 1.5rem;
     
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 p {
