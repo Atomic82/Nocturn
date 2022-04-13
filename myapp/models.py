@@ -41,7 +41,7 @@ class BlogPost(db.Model):
     def __repr__(self):
         return f"Post ID: {self.id} -- Date: {self.date} --- Title: {self.Title}"        
 
-#going to use this in our login view 
+
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
     

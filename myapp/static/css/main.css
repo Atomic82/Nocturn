@@ -55,12 +55,12 @@ body {
   font-size: 1px;
 }
 
-.daylight {
+.error {
   background-color: white;
 }
 
 .nav {
-  background-color: #000000;
+  font-weight: 600;
   position: absolute;
   width: 100vw;
   height: 5vh;
