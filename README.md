@@ -11,7 +11,7 @@ An app all about night vision observations and stargazing. The night comes alive
 
 ![Wireframe](/myapp/static/images/NocturnWireframe.png)
 
-![Favicon](/myapp/static/favicon/favicon.JPEG)
+![Favicon](/myapp/static/favicon/favicon.png)
 
 ![ERD](/myapp/static/images/ERD.png)
 
