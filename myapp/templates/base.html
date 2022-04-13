@@ -31,11 +31,12 @@
         <a href="{{url_for( 'users.account')}} ">Account</a>
       </li>
       {% else %}
-      <li class="nav-link">
-        <a href="{{url_for( 'users.login')}} ">Log In</a>
-      </li>
+      
       <li class="nav-link">
         <a href="{{url_for( 'users.register')}} ">Register</a>
+      </li>
+      <li class="nav-link">
+        <a href="{{url_for( 'users.login')}} ">Log In</a>
       </li>
       {% endif %}
     </ul>
