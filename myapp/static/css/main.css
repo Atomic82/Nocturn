@@ -3,7 +3,7 @@
 
 h1 {
   display: flex;
-  color: #00ffd1;
+  color: #ffffff;
   justify-content: center;
   font-family: "Inter", sans-serif;
 }
@@ -37,13 +37,15 @@ body {
   background-image: url("/static/images/backgroundimage.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
+
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 
 
@@ -79,6 +81,7 @@ form {
     flex-direction: column;
     justify-content: center;
     padding: 1.5rem;
+    position: absolute;
 }
 
 /* .form-group {
@@ -88,13 +91,14 @@ form {
 
 /* blog box */
 .container {
-  position: absolute;
+  position: fixed;
   width: 50vw;
-  height: 20vh;
-  background: rgba(0, 0, 0, 0.9);
-  border: 2px solid #ffffff;
+  height: 50vh;
+  /* background: rgba(0, 0, 0, 0.9); */
+  /* border: 2px solid #ffffff; */
   box-sizing: border-box;
   border-radius: 20px;
+  padding: 1.5rem;
 }
 
 /* ul > li {
@@ -112,7 +116,7 @@ form {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -122,11 +126,49 @@ p {
   justify-content: center;
   font-family: "Inter", sans-serif;
   padding: 1.5rem;
+  position: relative;
 }
 
-.form-group {
-  background: red;
+.container{
+    position: relative;
+    margin-bottom: 5vh;
 }
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+
+    transform: translate(-4px, -4px);
+    background: linear-gradient(60deg,
+    #e15ff2, #5f86f2, #a65ff2,
+    #5fd0f2, #822ed6, #625ff2) 0 20%;;
+    background-size: 300% 300%;
+    animation: gradient-animation 3.5s alternate infinite;
+    border: #FFFFFF solid 2px;
+    border-radius: 8px;
+    z-index: -1;
+}
+@keyframes gradient-animation {
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
+
+
+/* .form-group {
+    color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  padding: 1.5rem;
+  position: relative;
+ 
+} */
 
 .button {
   text-decoration: none;
