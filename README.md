@@ -7,7 +7,7 @@ An app all about night vision observations and stargazing. The night comes alive
 
 # S☾reensh🌓ts🦉
 ----
-![Home Page](/)
+![Home Page](/myapp/static/images/Homepage.png)
 
 ![Wireframe](/myapp/static/images/Wireframe.png)
 
