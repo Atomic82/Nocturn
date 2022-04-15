@@ -5,6 +5,8 @@
 
 An app all about night vision observations and stargazing. The night comes alive with different sounds and experiences. Write about it here and encourage investing in NODs (Night Observation Devices) as a tool to enjoy all 24 hours of a day.
 
+[Trello Planning](https://trello.com/b/ymcebPoY/nocturn)
+
 # S☾reensh🌓ts🦉
 ----
 ![Home Page](/myapp/static/images/Homepage.png)
